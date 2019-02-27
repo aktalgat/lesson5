@@ -11,6 +11,7 @@ public class App {
         LOGGER.warn("Warn");
         LOGGER.debug("Debug сообщение !!!");
         LOGGER.info("Info сообщение !!!");
+        LOGGER.info("Info сообщение !!!");
         LOGGER.error("Error сообщение !!!", new NullPointerException("NullError"));
     }
 }
